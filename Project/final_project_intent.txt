@@ -1,0 +1,50 @@
+Artis-Mickens, Krishna D. K. 
+Professor J. Reid
+CS 151 – Introduction to Computing (Section 001)
+Medgar Evers College
+Brooklyn, New York 11225, United States
+February 02, 2020
+Title: Final Project Declaration
+Out of the choices given (Connect 4, Shogi, Yahtzee, Sudoku, Go Fish, Go, 
+Checkers, Minesweeper, Wheel of Fortune, Chess, Battleship and Sorry), I will 
+choose to create a GO terminal game.  As per the instructions given on the directions, 
+this is the be a player versus player game.  It will define at least six (6) functions 
+which excludes the main function.  The main function body will consist of 
+declarations/initializations and function calls. It will not directly perform 
+any calculation, displays or iterations. My game program will use at least one 
+iteration and at one array. The source code (.cpp file) will compile.
+
+DESCRIPTION
+Go is an ancient Oriental strategy game that has been play for more than 2,300 years.
+  There are many different sources on the origin of the game.  Most people tend to 
+  believe that the game was invented in China by an emperor as a teaching tool 
+  for his son to learn about the complexities and wisdom of living life as a member
+   of the ruling class.  Some people say that the Emperor’s name is Yao, others say 
+   that the Emperor’s name is Shun.
+The game is played on a wooden block called a goban.  This goban is made to conform
+ to a grid of 361 points (19x19).  This game was considered one of the original 
+ liberal arts and sciences.  Back then these were called the four essential arts of 
+ antiquity (Music, Go, Calligraphy, and Painting).  
+
+PLAYERS
+Usually 2 (in recent years, players can play against computers).
+
+HOW IS IT PLAYED
+The playing pieces are called stones.  These stones are black or white.  They are to be 
+played on the intersections.  This is different than other games because most games 
+play inside of squares.  Theses intersections are then either called points 
+or liberties.  Once a player decides on which army to command (white or black), 
+they place one stone on a point and leave it there.  This of course, starts with an 
+empty board.  Black usually plays first.  It is not to be moved until it is captured.  
+It is captured when all of the points (or liberties) around it are played by an opponent.  
+Players are also allowed to give up a turn.  One at a time, of course, during alternating turns.  
+The game proceeds until neither player wishes to make another move.  When a game concludes, 
+the winner is determined by counting each player’s surrounded territory along with 
+captured stones and empty points (or liberties).  Games may also on due to resignation 
+or when both players pass.  The winner is declared by who influences more empty points of play.
+
+Works Cited
+“Four Arts.” Wikipedia, Wikimedia Foundation, 16 Oct. 2019, en.wikipedia.org/wiki/Four_arts.
+“Go (Game).” Wikipedia, Wikimedia Foundation, 13 Feb. 2020, 
+en.wikipedia.org/wiki/Go_(game)#Basic_rules.
+“Go History.” [Welcome to Sensei's Library!], senseis.xmp.net/?HistoryOfGo.
