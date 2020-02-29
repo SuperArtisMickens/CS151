@@ -32,7 +32,7 @@ int main()
     cin >> t;
 
     //Assign solution to task 2 to r2; 
-    bool r2 = s < 0 && t < 0 || s>=0 && t>= 0;
+    bool r2 = s < 0 && t < 0 || s>=0 && t>= 0; //0 is not positive
     
     cout << "It is " << r2 << " that " << s << " and " << t << " have the same sign\n\n";
     /*Task 2 Ends*/
