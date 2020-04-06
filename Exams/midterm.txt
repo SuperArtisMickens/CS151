@@ -1,0 +1,212 @@
+Artis-Mickens, Krishna
+Midterm Submission
+Monday April 6, 2020
+CS151 - c++
+Professor Reid
+
+Fundamentals
+1. For each of the following questions, write ONLY what is requested.
+a. Given the char variable a that has been initialized, write a statement(s) 
+that displays the message ''Yes''
+if a is equal to 'y' in any case, or it displays ''No'' if a is equal to 'n' in any case.
+
+if (a == "y"){
+    cout << "Yes ";
+}
+if (a =="n"){
+    cout <<"No ";
+}
+
+b. Given the int function named T() that takes an int parameter and returns the sum of the 
+factors of the absolute value of its parameter has been defined, write a statement(s) that 
+assigns the 6 more than 3 times the sum of the factors of 2100 to a variable.
+
+
+int s,r;
+s = T(2100);
+r = (s*3)+6;
+cout << r;
+
+
+
+
+c. Given the int variable n that has been initialized, write a statement that assigns the 
+cube of n to n only if n an odd multiple of 3.
+
+if (n % 3 == 0){
+    int o;
+    o = n * n *n;
+}
+
+d. Given the two char variables p and q that have been initialized, write a statement(s) 
+that displays ''Same'' if p and q are equal, or it displays ''Different'' if p and q are not equal.
+
+if (p == q){
+    cout << "Same";
+}
+else 
+    cout <<"Different";
+
+e. Write a statement(s) that reads a number from the user and displays four times it.
+
+int a, b;
+cout <<"Please enter a number ";
+cin >> a;
+b = a * 4;
+cout <<"\n"<<b;
+
+=-=-=-=-=-----=-=-=-=-=-=-=-=--=-=-=-=-=-=--=-=-=-=
+
+Problem Solving
+2. Write an int function named DigitFactors() that takes an int parameter. It displays 
+all the digits (1, 2, ...,9) factors of the parameter on their own line and returns the 
+total number of digits that are factors of the parameter. The program should work with both 
+negative and positive numbers. Furthermore, if the parameter is 0, it should display nothing and 
+return 0. For instance, the call DigitFators(-210) should display ''1 2 3 5 6 7'' and return 6.
+
+int DigitFactors(int parameter)
+{
+    if(parameter < 0)
+        parameter *= -1;
+
+    int h, i, j;
+
+
+    for(i = 1; i <= parameter; ++i)
+    {
+        if(parameter % i == 0)
+            cout << i << endl;
+            j=j+1;
+    }
+
+    cout << "\n";
+    cout << j;
+}
+
+-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=--=-=-=-=--=-=-=-=
+
+Tracing
+3. Generate the trace table list for the function call of the function F(0) below that reads in 
+the inputs (9,5,2)
+}
+}
+return c;
+{
+else
+}
+return b;
+{
+else if(n > 0)
+}
+return a;
+{
+if(n < 0)
+cout << a << c << b;
+}
+c = t;
+a = c;
+t = a;
+{
+if(a > c)
+}
+c = t;
+b = c;
+t = b;
+{
+if(b < c)
+}
+b = t;
+a = b;
+t = a;
+{
+if(a > b)
+cin >> c;
+cin >> b;
+cin >> a;
+int a, b, c, t;
+{
+int F(int n)
+
+(ans.)
+step |  n   |  a   |   b   |   c   |   t  | output   |  return  |
+-----------------------------------------------------------------
+1       0
+2               9
+3                       5
+4                               2
+5                                       9
+6              5
+7                       9                   
+8                                           out
+9                                                       2
+
+-------------------------------------------------------------------
+out 
+-----
+5 2 9
+-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-
+Debugging
+4. Only for each line that has an syntax error in the function below, 
+write its line number and its line correction.
+
+01 char PrimeLessThan100(int n)
+line 01: string PrimeLessThan100(int n)
+02 {
+03 if(n < 0)
+04 {
+line 04:  unnecessary "{"
+05 n *= -1
+line 05:        n *= -1;
+
+06 }
+line 06: unnecessary "}"
+07
+08 if(n > 100)
+line 08:    if(n > 100) {
+
+09 {
+10 return Cannot Determine\n;
+line 10:        return "Cannot Determine";
+
+11 }
+12 else if(n % 2 == 0)
+13 {
+14 return ''Composite with factor of 2\n;''
+line 14:        return "Composite with factor of 2";
+
+15 }
+16 elif(n % 3 == 0)
+line 16:    else if(n % 3 == 0){
+
+17 {
+18 return ''Composite with factor of 3\n'';
+line 18:        return "Composite with factor of 3";
+
+19 }
+20 if else(n % 5 == 0)
+line 20:    else if(n % 5 == 0)
+
+21 }
+line 21: {
+22 return ''Composite with factor of 5\n'';
+line 22:        return "Composite with factor of 5";
+
+23 }
+line 23: }
+24 else if(n % 7 = 0)
+25 {
+26 return ''Composite with factor of 7\n''
+line 26:        return "Composite with factor of 7";
+
+27 }
+28 else
+29 {
+line 29: unnecessary "{"
+
+30 cout << ''Prime'';
+line 30:        return "Prime";
+
+31 }
+line 31 unnecessary "}"
+
+32 }
