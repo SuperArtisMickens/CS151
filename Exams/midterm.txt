@@ -69,10 +69,14 @@ int DigitFactors(int parameter)
     if(parameter < 0)
         parameter *= -1;
 
+    if(parameter == 0)
+        return 0;
+
+
     int h, i, j;
 
 
-    for(i = 1; i <= parameter; ++i)
+    for(i = 1; i <= 9; ++i)
     {
         if(parameter % i == 0)
             cout << i << endl;
@@ -80,7 +84,7 @@ int DigitFactors(int parameter)
     }
 
     cout << "\n";
-    cout << j;
+    return j;
 }
 
 -=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=--=-=-=-=--=-=-=-=
