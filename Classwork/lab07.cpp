@@ -44,8 +44,23 @@ using namespace std;
 int main()
 {
     cout << "Trace Table\n\n";
-    cout << "1. output <- out";
-    cout << "2. x1 <- 2";
-    cout << "3. git add ";
+    cout << "1. output  <-  out\n";
+    cout << "2. x1      <-  2\n";
+    cout << "3. output  <-  out\n";
+    cout << "4. x2      <-  -3\n";
+    cout << "5. output  <-  out\n";
+    cout << "6. x3      <-  6\n";
+    cout << "7. output  <-  out\n";
+    cout << "8. x4      <-  7\n";
+    cout << "9. smc     <-  12\n";
+    cout << "10.smc     <-  3\n";
+    cout << "11.d1      <-  1\n";
+    cout << "12.d2      <-  0\n";
+    cout << "13.d3      <-  -3\n";
+    cout << "14.d4      <-  -4\n";
+    cout << "15.smv     <-  -6\n";
+    cout << "16.smv     <-  15.5\n";
+    cout << "17.output  <-  out\n";
+    cout << "18.return  <-  0\n\n";
     return 0;
 }

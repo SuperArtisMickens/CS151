@@ -1,5 +1,4 @@
 #include <iostream>
-#include <cmath>
 using namespace std;
 
 /*********************************
@@ -14,8 +13,11 @@ double SumOfThree(double x,double y,double z)
 
 double Absolute(double w)
 {
-    double t = abs(w);
-    return t;
+    if (w<0)
+    {
+        w=w*-1;
+    }
+    return w;
 }
 
 bool IsLetter(char v)
