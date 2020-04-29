@@ -59,4 +59,18 @@ Fundamentals
 
 ** Sir, I am going to need more time.. I will resubmit if necessary **
 2. 
+** Also, I had a hard crash **
 
+3. 
+
+4.
+line 02 - int c; 
+line 07 - n  = n / b;
+line 10 - return c;
+line 13 - bool IP(int p)
+line 15 - for ( int i = 2; ((pow (i, 2)<p); i += 1 )
+line 21 - else return true;
+line 22 - }
+line 32 - if(IP(p) && m % p == 0)
+line 35 - cout << p << "^" << c;
+line 43 - } return;
