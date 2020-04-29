@@ -1,0 +1,62 @@
+Artis-Mickens, Krishna
+Exam #3 Submission
+Wednesday April 29, 2020
+CS151 - c++
+Professor Reid
+
+Fundamentals
+1.
+    a.
+    int D(int par1, int par2)
+    {
+    if (par1 > par2)
+        return (par1 - par2);
+    else
+        return (par2 - par1);
+        
+    }
+
+    b. 
+    
+    int c;
+    c = 1;
+    
+    while (c > 0){
+        c=c+1;
+        cout << "Never Surrender \n\n";
+        }
+
+    c. 
+    bool T(int par3)
+    {
+    int result;
+    result = par3*3;
+    if (result % 6 == 0)
+        return true;
+    else
+        return false;
+    }   
+
+    d.
+    int c;
+    c = 100;
+    
+    while (c <= 100 && c > 0 ){
+      c=c-1;
+      if (c % 2 == 1){
+        cout << c << " \n";
+        }
+
+    e.
+    double A(double par4)
+{
+  double like;
+  cout << "Please enter a parameter: ";
+  cin >> like;
+  return ((par4+like)/2);
+
+}
+
+** Sir, I am going to need more time.. I will resubmit if necessary **
+2. 
+
