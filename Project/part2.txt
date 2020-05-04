@@ -1,0 +1,6 @@
+current player
+pieces
+board
+points
+captured pieces
+legal moves
