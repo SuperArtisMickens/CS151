@@ -111,7 +111,72 @@ void RearrangeCharacters(char ref_1, char ref_2, char ref_3){
     
 }
 
+void NumericalSwap(double x, double y){
+    x = x + y;
+    y = x - y;
+    x = x - y;
+    return;
+    
+}
 
+void CapLock(char refca){
+    if (refca >= 65 && refca < 91){
+        refca = refca + 32;
+        }
+    else if (refca >= 97 && refca < 123){
+        refca = refca - 32;
+        } 
+    return;
+}
+
+string IntToStr(int nopar7){
+    
+    string nopar77;
+    
+    if (nopar < 0){
+        nopar = nopar * -1;
+    }
+    
+    
+    if (nopar7 < 100)){
+        
+        nopar77 = nopar7;
+        return nopar77;
+    }
+    else
+        nopar77 = "0";
+        return nopar77;
+        
+        return 
+}
+
+int Multiple Quotient(int n, int m){
+    if ((n%m == 0) && (m != 0)){
+        return (n / m);
+        }
+    else
+        return n;
+}
+
+string DayOfTheWeek(int goodpar){
+    string days [7] = {, Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday}; 
+    
+    if ((goodpar > 0) && (goodpar <= 7)){
+        for (int i = 0; i < 8 ; i++) {
+            if (goodpar = i) {
+               return days[i];
+            } 
+        }
+    else {
+        return days[0];
+            
+        }
+    }
+}
+
+double Median(double luckynu_1, double luckynu_2, double luckynu_3, double luckynu_4){
+    
+}
 
 
 int main()

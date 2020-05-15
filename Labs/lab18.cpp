@@ -18,7 +18,7 @@ int main()
 {    
     //Write all tasks below here
     
-    int values [5];
+    int values[5];
     values[2] = 12;
     
     values[4] = ((values[2] * 2) + 3);
