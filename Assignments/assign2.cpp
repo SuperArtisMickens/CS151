@@ -174,10 +174,182 @@ string DayOfTheWeek(int goodpar){
     }
 }
 
-double Median(double luckynu_1, double luckynu_2, double luckynu_3, double luckynu_4){
+double Median(double a, double b, double c, double d){
+    if ((a < b) && (a < c) && (a < d)){
+        double num_01 == a;
+    }
     
+    else if ((b < c) && (b < d) && (b < a)){
+        double num_01 == b;
+    }
+    
+    else if ((c < d) && (c < b) && (c < a)){
+        double num_01 == c;
+    }
+    
+    else {
+        double num_01 == d;
+    }
+    
+    
+    if  ((num_01 == a) && ((b < c) && (b < d)) || ((num_01 == c) && ((b < d) && (b < a)) || ((num_01 == d) && ((b < c) && (b < a)) {
+        double num_02 == b;
+    }
+    else if  ((num_01 == a) && ((c < b) && (c < d)) || ((num_01 == b) && ((c < d) && (c < a)) || ((num_01 == d) && ((c < b) && (c < a)) {
+        double num_02 == c;
+    }
+    
+    else if  ((num_01 == a) && ((d < b) && (d < c)) || ((num_01 == b) && ((d < c) && (d < a)) || ((num_01 == c) && ((d < b) && (d < a)) {
+        double num_02 == d;
+    }
+    else
+        double num_02 == a;
+        
+    
+    if  ((num_01 == a) && (num_02 == b) && (c < d)) || ((num_01 == a) && (num_02 == d) && (c < b))  {
+        double num_03 == c;
+    }
+    else if  ((num_01 == b) && (num_02 == d) && (c < a)) || ((num_01 == b) && (num_02 == a) && (c < d))  {
+        double num_03 == c;
+    }
+    else if  ((num_01 == d) && (num_02 == a) && (c < b)) || ((num_01 == d) && (num_02 == b) && (c < a))  {
+        double num_03 == c;
+    }
+    
+    else if  ((num_01 == a) && (num_02 == b) && (d < c)) || ((num_01 == a) && (num_02 == c) && (d < b))  {
+        double num_03 == d;
+    }
+    else if  ((num_01 == b) && (num_02 == c) && (d < a)) || ((num_01 == b) && (num_02 == a) && (d < c))  {
+        double num_03 == d;
+    }
+    else if  ((num_01 == c) && (num_02 == a) && (d < b)) || ((num_01 == c) && (num_02 == b) && (d < a))  {
+        double num_03 == d;
+    }
+    
+    else if  ((num_01 == a) && (num_02 == c) && (b < d)) || ((num_01 == a) && (num_02 == d) && (b < c))  {
+        double num_03 == b;
+    }
+    else if  ((num_01 == c) && (num_02 == d) && (b < a)) || ((num_01 == c) && (num_02 == a) && (b < d))  {
+        double num_03 == b;
+    }
+    else if  ((num_01 == d) && (num_02 == a) && (b < c)) || ((num_01 == d) && (num_02 == c) && (b < a))  {
+        double num_03 == b;
+    }
+    else{
+       double num_03 == a; 
+    }
+    
+    
+    if  ((num_01 == a) && (num_02 == b) && (num_03 == c)){
+        double num_04 == d;
+    }
+    else if  ((num_01 == a) && (num_02 == c) && (num_03 == b)){
+        double num_04 == d;
+    }
+    else if  ((num_01 == b) && (num_02 == c) && (num_03 == a)){
+        double num_04 == d;
+    }
+    else if  ((num_01 == b) && (num_02 == a) && (num_03 == c)){
+        double num_04 == d;
+    }
+    else if  ((num_01 == c) && (num_02 == a) && (num_03 == b)){
+        double num_04 == d;
+    }
+    else if  ((num_01 == c) && (num_02 == b) && (num_03 == a)){
+        double num_04 == d;
+    }
+    
+    else if  ((num_01 == a) && (num_02 == b) && (num_03 == d)){
+        double num_04 == c;
+    }
+    else if  ((num_01 == a) && (num_02 == d) && (num_03 == b)){
+        double num_04 == c;
+    }
+    else if  ((num_01 == b) && (num_02 == d) && (num_03 == a)){
+        double num_04 == c;
+    }
+    else if  ((num_01 == b) && (num_02 == a) && (num_03 == d)){
+        double num_04 == c;
+    }
+    else if  ((num_01 == d) && (num_02 == a) && (num_03 == b)){
+        double num_04 == c;
+    }
+    else if  ((num_01 == d) && (num_02 == b) && (num_03 == a)){
+        double num_04 == c;
+    }
+    
+    else if  ((num_01 == a) && (num_02 == c) && (num_03 == d)){
+        double num_04 == b;
+    }
+    else if  ((num_01 == a) && (num_02 == d) && (num_03 == c)){
+        double num_04 == b;
+    }
+    else if  ((num_01 == c) && (num_02 == d) && (num_03 == a)){
+        double num_04 == b;
+    }
+    else if  ((num_01 == c) && (num_02 == a) && (num_03 == d)){
+        double num_04 == b;
+    }
+    else if  ((num_01 == d) && (num_02 == a) && (num_03 == b)){
+        double num_04 == c;
+    }
+    else if  ((num_01 == d) && (num_02 == b) && (num_03 == a)){
+        double num_04 == c;
+    }
+    else{
+        double num_04 == a;
+        
+    }
+
+    int med_num_one;
+    med_num_one = (num_02 + num_03) /2;
+    return med_num_one;
+
+
+
 }
 
+
+double Minimum (double num_a, double num_b, double num_c, double num_d){
+    if ((num_a < num_b) && (num_a < num_c) && (num_a < num_d)){
+        return num_a;
+    }
+    
+    else if ((num_b < num_c) && (num_b < num_d) && (num_b < num_a)){
+        return num_b;
+    }
+    
+    else if ((num_c < num_d) && (num_c < num_b) && (num_c < num_a)){
+        return num_c;
+    }
+    
+    else {
+        return num_d;
+    }
+
+}
+
+string ColorCode (int painter){
+    string color;
+    if (painter %3 == 0){
+        color = "red";
+        return color;
+    }
+
+    else if (painter %4 == 0){
+        color = "blue";
+        return color;
+    }
+
+    else if ((painter %4 == 0) && (painter %3 == 0)){
+        color = "purple";
+        return color;
+    }
+    else {
+        color = "yellow";
+        return color;
+    }
+}
 
 int main()
 {
