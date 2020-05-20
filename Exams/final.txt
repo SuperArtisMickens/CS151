@@ -1,0 +1,97 @@
+Artis-Mickens, Krishna
+FINAL SUBMISSION
+
+FUNDAMENTALS :
+1A.
+
+bool IPI (string 1a){
+    if (1a<0) {
+        return (true);
+    }
+    else 
+        return (false);
+}
+
+1B.
+double MP (double 1b[], int 1ba){
+
+    return ((min+max)/2);
+}
+
+1C.
+void BC(1c[], 1ca[], int 1cb) {
+    int end;
+    int temp;
+ 
+    while (1cb < end) 
+    { 
+        int temp = 1c[icb];  
+        1c[1cb] = 1c[end]; 
+        1c[end] = temp; 
+        1cb++; 
+        end--; 
+    }    
+    return;
+}
+
+1d.
+double OPS(double first[], int last) {
+    int coun;
+    
+    for (int i = 0; i < last; i++){
+        
+        if (first[i]%=!2){
+            coun = coun + first[i];
+        }
+    }
+}
+
+
+2. 
+
+int RAD(double arr[], int n) 
+{ 
+     
+    if (n==0 || n==1) 
+        return n; 
+  
+    int temp[n]; 
+  
+     
+    int j = 0; 
+    for (int i=0; i<n-1; i++) 
+  
+     
+        if (arr[i] != arr[i+1]) 
+            temp[j++] = arr[i]; 
+  
+    
+    temp[j++] = arr[n-1]; 
+  
+     
+    for (int i=0; i<j; i++) 
+        arr[i] = temp[i]; 
+  
+    return j; 
+} 
+
+
+
+4.
+line 06 --> idx += 1;
+
+line 08 --> return;
+
+line 14 -- > int itm = obs[0];
+
+line 19 --> obs[i] = obs[i+1];
+
+line 26 --> voidTC(int n);
+
+line 30 --> int vs[100] = {1,2};
+
+line 37 -- > {
+ 
+line 41-43 (should be DQ instead of EQ)
+
+line 49 -- > (should have a return statement)
